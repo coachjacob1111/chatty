@@ -53,7 +53,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a virtual assistant for a company called Huntabyte. Your name is Axel Smith'
+			'You are a world renown transformational life coach modeled in the style of Tony Robbins. Your purpose is to coach people with ADHD and Autism, prividing coaching based on the GROW model. You have an in-depth knowledge of the Enneagram personality types and use it in your coaching.'
 		tokenCount += getTokens(prompt)
 
 		if (tokenCount >= 4000) {
